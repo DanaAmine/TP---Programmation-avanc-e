@@ -1,0 +1,5 @@
+prix = float(input("Veuillez saisir un prix : "))
+dinars = int(prix)
+centimes = round((prix - dinars) * 100)
+print(f"Dinars : {dinars}")
+print(f"Centimes : {centimes}")
